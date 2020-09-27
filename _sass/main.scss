@@ -1,0 +1,176 @@
+// .current {
+//     color: green;
+//   }
+
+
+
+ 
+
+//   .container {
+//     //width : 100%;
+//     //height : 360px;
+//     //background-color: #f1faee;
+//     display : flex;
+//     //flex-direction: column;
+//     //justify-content: center;
+
+//     //align-items: center;
+//     flex-wrap: wrap;
+
+//   }
+
+//   .navigation {
+//     background-color: black;
+//     display: flex;
+//     height: 50px;
+//     //margin-top: 20px;
+
+    
+//   }
+
+//   .navigation a {
+//       margin-left: 10px;
+//       //display: block;
+//       padding: 10px;
+//       align-items: center;
+//       color: white;
+//       background-color: tomato;
+//       justify-content: space-between;
+//   }
+
+
+
+//   .content {
+//       background-color: #2a9d8f;
+//   }
+
+//   .footer {
+//       background-color: #e9c46a;
+//       //flex-grow: 1;
+//       //flex-basis: 300px;
+//       height: 50px;
+      
+      
+//   }
+
+
+
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+  background-color: rgb(122, 122, 122);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background:   #1d1e20;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  padding: 5px;
+  margin-left: 5px;
+
+}
+
+.menu li a {
+  padding: 10px;
+  /*background: rgb(105, 104, 104);*/
+  display: block;
+}
+
+.footer {
+  background: #1d1e20;
+  
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.content {
+  background-color: rgb(194, 192, 192);
+  min-height: 500px;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  
+  
+}
+
+ img {
+   max-width: 100%;
+   display: block;
+ }
+
+.home {
+  display: grid;
+  max-width:800px;
+}
+
+.home img {
+  grid-column: 1;
+  grid-row: 1/5;
+}
+
+.home h1 {
+  background-color: rgba($color: #000000, $alpha: .5);
+  padding: 30px;
+  color: white;
+  grid-column: 1;
+  text-align: center;
+  grid-row: 2/3;
+  
+}
+.home h2,h3 {
+  grid-row: 2/3;
+  
+}
+
+.blog {
+
+  background-color: rgb(194, 192, 192);
+  padding: 20px;
+}
+
+.blog ul li h2 a {
+  color: #212529;
+}
+
+.blog p {
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+}
+
+.blog h1 {
+  color: #495057;
+}
+
+.post p {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}
+.post h1 {
+  text-align: center;
+}
